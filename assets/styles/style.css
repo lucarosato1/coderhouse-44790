@@ -4,6 +4,11 @@ body{
     color: #ffffff;
     margin-left: 20%;
     margin-right: 20%;
+    display: grid;
+    grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
 }
 
 a{
@@ -19,7 +24,13 @@ ul{
 header{
     margin-top: 50px;
     margin-bottom: 70px;
+    grid-area: header;
 }
+
+main{
+    grid-area: main;
+}
+
 nav{
     position: absolute;
     top: 45px;
@@ -84,6 +95,7 @@ nav{
     background-color: #1D65B9;
     border-radius: 40px;
     padding: 25px 50px;
+    transition: 0.3s;
 }
 
 .user--content-container{
@@ -91,6 +103,8 @@ nav{
 }
 
 .user--content-container img{
+    transition: 0.3s;
+    cursor: pointer;
     margin: 5px;
 }
 
@@ -254,4 +268,20 @@ footer{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    grid-area: footer;
+}
+
+
+#btn_random_album:hover{
+    padding: 30px 60px;
+}
+
+.user--content-container img:hover{
+    border-radius: 30%;
+}
+
+@media (max-width: 500px) {
+    .form--send-message {
+        font-size: 14px;
+    }
 }
