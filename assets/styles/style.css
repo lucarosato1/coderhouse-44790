@@ -158,6 +158,7 @@ nav{
     border-width: 2px;
     padding-left: 30px;
     margin-bottom: 20px;
+    transition: 0.3s;
 }
 
 .settings--item span{
@@ -168,6 +169,11 @@ nav{
 
 .settings--item p{
     color: #000000;
+}
+
+.settings--item:hover{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* MAIN - Contact */
@@ -192,6 +198,7 @@ form input{
     padding: 10px;
     margin-bottom: 20px;
     outline: none;
+    border-radius: 10px;
 }
 
 form h2{
@@ -205,6 +212,7 @@ form h2{
     border: none;
     padding: 10px;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .form--message-container {
@@ -219,6 +227,7 @@ form h2{
     padding: 10px;
     margin-bottom: 40px;
     resize: none;
+    border-radius: 10px;
 }
 
 .form--send-message{
@@ -227,7 +236,16 @@ form h2{
     background-color: #1D65B9;
     border-radius: 40px;
     padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
 }
+
+.form--send-message:hover{
+    background-color: #ffffff;
+    color: #1D65B9;
+    padding: 20px;
+}
+
 
 /* MAIN - Search */
 .search--container{
