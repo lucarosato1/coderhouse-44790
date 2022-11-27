@@ -1,6 +1,6 @@
 body{
     background-color: #131937;
-    font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', '맑은 고딕', '돋움', Dotum, sans-serif;
+    font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', Dotum, sans-serif !important;
     color: #ffffff;
     margin-left: 20%;
     margin-right: 20%;
@@ -13,7 +13,7 @@ body{
 
 a{
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 ul{
@@ -32,9 +32,39 @@ main{
 }
 
 nav{
-    position: absolute;
     top: 45px;
     left: 0;
+}
+
+#menu{
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    margin: 10px;
+}
+
+#menu--btn{
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: -13px;
+}
+
+.menu--content{
+    margin-top: 30px !important;
+    font-size: 20px;
+}
+
+.menu--content a{
+    color: black;
+    margin-left: -10px;
+}
+
+.p-4{
+    margin-top: -10px;
+    background-color: white;
+    border-radius: 20px;
 }
 
 .top--container{
@@ -67,6 +97,10 @@ nav{
     border-radius: 50%;
 }
 
+.top--container__right i{
+    padding: 10px;
+}
+
 /* INDEX - Main */
 .artist--container{
     text-align: center;
@@ -76,6 +110,7 @@ nav{
 .artist--container h4 {
     font-size: 20px;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .artist--container h1 {
@@ -85,7 +120,7 @@ nav{
 
 .artist--container p {
     font-size: 17px;
-    margin-top: -35px;
+    margin-top: -10px;
     margin-bottom: 45px;
 }
 
@@ -161,8 +196,8 @@ nav{
     transition: 0.3s;
 }
 
-.settings--item span{
-     margin-top: 12px;
+.settings--item i{
+     margin-top: 15px;
      padding-right: 10px;
      color: #000000;
 }
@@ -258,19 +293,18 @@ form h2{
     font-size: x-large;
 }
 
+.search--container i{
+    color: #000000;
+    padding: 10px;
+}
 .search--input-container{
     background-color: #ffffff;
     padding: 5px;
+    padding-top: 10px;
     border-radius: 10px;
     margin-top: -20px;
 }
 
-.search--input-container span{
-    color: #000000;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-right: 10px;
-}
 
 .search--input-container input{
     width: 80%;
