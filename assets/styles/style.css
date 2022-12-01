@@ -49,6 +49,7 @@ nav{
     padding: 20px;
     border-radius: 20px;
     margin-top: -13px;
+    box-shadow: #ffffff 0 0 20px;
 }
 
 .menu--content{
