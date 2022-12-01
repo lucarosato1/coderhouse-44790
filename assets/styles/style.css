@@ -286,31 +286,32 @@ form h2{
 .search--container{
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 50px;
     text-align: left;
 }
 
 .search--container h4{
     font-size: x-large;
+    margin-bottom: 20px;
 }
 
 .search--container i{
     color: #000000;
     padding: 10px;
 }
+
 .search--input-container{
     background-color: #ffffff;
-    padding: 5px;
-    padding-top: 10px;
+    color: black;
     border-radius: 10px;
-    margin-top: -20px;
+    margin-top: -10px;
+    padding: 10px;
 }
-
 
 .search--input-container input{
     width: 80%;
-    padding-bottom: 10px;
     font-size: large;
-    height: 20px;
+    height: 30px;
     border: none;
     outline: none;
 }
