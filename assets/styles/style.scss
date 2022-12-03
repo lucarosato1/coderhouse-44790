@@ -1,0 +1,33 @@
+@use "global/header";
+@use "global/footer";
+@use "global/menu";
+@use "home/home";
+@use 'search/search';
+@use "profile/profile";
+@use "profile/settings";
+@use "profile/contact";
+
+$text-color: #ffffff;
+$background-color: #131937;
+
+body{
+    background-color: $background-color;
+    font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', Dotum, sans-serif !important;
+    color: $text-color;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: grid;
+    grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+}
+
+a{
+    color: $text-color;
+    text-decoration: none !important;
+}
+
+ul{
+    list-style-type: none;
+}

@@ -1,0 +1,48 @@
+.artist--container{
+  text-align: center;
+  margin-bottom: 100px;
+
+  h4 {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  h1 {
+    font-size: 56px;
+    margin-top: -30px;
+  }
+
+  p {
+    font-size: 17px;
+    margin-top: -10px;
+    margin-bottom: 45px;
+  }
+
+  a{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #1D65B9;
+    border-radius: 40px;
+    padding: 25px 50px;
+    transition: 0.3s;
+  }
+}
+
+.user--content-container{
+  text-align: center;
+
+  img{
+    transition: 0.3s;
+    cursor: pointer;
+    margin: 5px;
+  }
+}
+
+#btn_random_album:hover{
+  padding: 30px 60px;
+}
+
+.user--content-container img:hover{
+  border-radius: 30%;
+}

@@ -1,0 +1,77 @@
+$form--background-color: #1D65B9;
+$form--content-color: #ffffff;
+
+.contact--container{
+  text-align: center;
+  font-size: large;
+  margin-bottom: 50px;
+}
+
+form{
+  width: 50%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px 40px;
+  border-radius: 10px;
+
+  input{
+    width: 95%;
+    background-color: $form--content-color;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    border-radius: 10px;
+  }
+
+  h2{
+    text-align: left;
+    font-size: xx-large;
+  }
+}
+
+.form--pick-question select{
+  width: 100%;
+  background-color: $form--content-color;
+  border: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.form--message-container {
+  text-align: left;
+
+  textarea{
+    width: 95%;
+    border: none;
+    outline: none;
+    background-color: $form--content-color;
+    padding: 10px;
+    margin-bottom: 40px;
+    resize: none;
+    border-radius: 10px;
+  }
+}
+
+.form--send-message{
+  font-size: 16px;
+  font-weight: bold;
+  background-color: $form--background-color;
+  border-radius: 40px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form--send-message:hover{
+  background-color: $form--content-color;
+  color: $form--background-color;
+  padding: 20px;
+}
+
+@media (max-width: 500px) {
+  .form--send-message {
+    font-size: 14px;
+  }
+}
