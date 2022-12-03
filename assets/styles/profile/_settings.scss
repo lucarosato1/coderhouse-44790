@@ -1,0 +1,26 @@
+.settings--item{
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border-width: 2px;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+
+  i{
+    margin-top: 15px;
+    padding-right: 10px;
+    color: #000000;
+  }
+
+  p{
+    color: #000000;
+  }
+}
+
+.settings--item:hover{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

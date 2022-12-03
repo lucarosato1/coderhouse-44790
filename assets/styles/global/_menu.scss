@@ -1,0 +1,25 @@
+#menu{
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  margin: 10px;
+}
+
+#menu--btn{
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: -13px;
+  box-shadow: #ffffff 0 0 20px;
+}
+
+.menu--content{
+  margin-top: 30px !important;
+  font-size: 20px;
+
+  a{
+    color: black;
+    margin-left: -10px;
+  }
+}
