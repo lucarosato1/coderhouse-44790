@@ -1,26 +1,35 @@
+$font-sizes: (
+      small: 14px,
+      medium: 20px,
+      large: 24px,
+      x-large: 32px,
+      xx-large: 48px,
+      xxx-large: 64px,
+);
+
 .artist--container{
   text-align: center;
   margin-bottom: 100px;
 
   h4 {
-    font-size: 20px;
+    font-size: map-get($font-sizes, large);
     margin-top: 50px;
     margin-bottom: 30px;
   }
 
   h1 {
-    font-size: 56px;
+    font-size: map-get($font-sizes, xxx-large);
     margin-top: -30px;
   }
 
   p {
-    font-size: 17px;
+    font-size: map-get($font-sizes, medium);
     margin-top: -10px;
     margin-bottom: 45px;
   }
 
   a{
-    font-size: 20px;
+    font-size: map-get($font-sizes, medium);
     font-weight: bold;
     background-color: #1D65B9;
     border-radius: 40px;
@@ -45,4 +54,13 @@
 
 .user--content-container img:hover{
   border-radius: 30%;
+}
+
+@mixin user--content-container {
+  img{
+    transition: 0.3s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
 }
