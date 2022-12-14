@@ -1,0 +1,33 @@
+{
+  "name": "coderhouse-44790",
+  "version": "1.0.0",
+  "description": "NotSpotify is a digital music service that gives you access to millions of songs.",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucarosato1/coderhouse-44790.git"
+  },
+  "keywords": [
+    "NotSpotify",
+    "music",
+    "songs",
+    "artists",
+    "albums",
+    "playlists",
+    "podcasts",
+    "radio"
+  ],
+  "author": "Luca Rosato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucarosato1/coderhouse-44790/issues"
+  },
+  "homepage": "https://github.com/lucarosato1/coderhouse-44790#readme",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "bootstrap-icons": "^1.10.2",
+    "jquery": "^3.6.2",
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
