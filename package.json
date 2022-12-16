@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/lucarosato1/coderhouse-44790#readme",
   "dependencies": {
-    "bootstrap": "^3.4.1",
+    "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.2",
     "jquery": "^3.6.2",
     "node-sass": "^8.0.0",

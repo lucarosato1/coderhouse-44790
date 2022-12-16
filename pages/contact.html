@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="NotSpotify is a digital music service that gives you access to millions of songs.">
     <meta name="keywords" content="NotSpotify, music, songs, artists, albums, playlists, podcasts, radio">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/styles/style.css">
     <!-- importing boostrap icons in order to consume their icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
@@ -42,8 +43,8 @@
         <form>
             <h2 class="form-signin-heading">Contact Form</h2>
 
-            <label class="form--pick-question">
-                <select id="form--subject" name="form--question" >
+            <label>
+                <select id="form--subject" class="form-select" aria-label="Default select example" name="form--question" >
                     <option value="" disabled selected>Choose a question</option>
                     <option value="1">FREE TIER</option>
                     <option value="2">Work with us</option>
@@ -53,16 +54,19 @@
             </label>
 
             <div class="form--message-container">
-                <label for="form--body">Message: </label>
-                <textarea name="message" id="form--body" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                <div class="mb-3">
+                    <label class="form-label" for="form--body">Message</label>
+                    <textarea id="form--body" class="form-control" rows="3"></textarea>
+                    <button class="btn btn-primary me-md-2" onclick="getContent()" type="button">Send Message</button>
+                </div>
             </div>
 
-            <a class="form--send-message" onclick="getContent()">Send Message</a><br><br>
+
         </form>
     </main>
 
     <footer>
-        <p>NotSpotify &copy; 2022</p>
+        <p>NotSpotify &copy; 2022 | By Luca Rosato</p>
     </footer>
 
     <script src="../scripts/mailtoFormatter.js"></script>
